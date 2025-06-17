@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font: normal 1rem "Roboto", sans-serif;
+}
+
+h1, h2 {
+  font: bold 2.625rem "Roboto", sans-serif;
+}
+
+h3 {
+  font: bold 1.5rem "Roboto", sans-serif;
+}
+
+/***********************************************************************************************/
+/*  NAVIGATION & UIKIT OVERRIDES */
+/***********************************************************************************************/
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+nav.custom-pad {
+  padding: 0 25px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  max-width: 100px;
+}
+
+.outer-sticky {
+  background-color: #1e87b1 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid #f0eee9;
+}
+
+.uk-open > .uk-offcanvas-bar,
+.uk-offcanvas-bar .uk-nav-default > li > a {
+  background-color: #1e87b1;
+  color: #fff;
+}
+
+.uk-offcanvas-bar {
+  background-color:#1e87b1 ;
+}
+
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  color: #ffffff !important;
+  font-weight:500;
+}
+
+/***********************************************************************************************/
+/*  HERO SECTION */
+/***********************************************************************************************/
+#hero .uk-card-secondary {
+  background: none;
+  box-shadow: none;
+}
+
+#hero .uk-text-lead {
+  font-weight: 300;
+}
+
+#hero h1, #hero p {
+  color: #fff;
+}
+
+#hero .uk-overlay {
+  padding: 30px;
+  max-width: 1024px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1px);
+}
+
+#hero .uk-overlay h1 {
+    font-size:2.65rem;
+}
+#hero .uk-overlay p {
+    font-size:1.25rem;
+}
+
+#hero img {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#hero .cta-button, .cta-button {
+  padding: 20px;
+  background: #1e87b1 center/cover no-repeat;
+  color: white;
+  border: none;
+  font: bold 1rem "Roboto", sans-serif;
+}
+
+#hero .cta-button:hover, .cta-button:hover {
+  filter: brightness(1.05);
+  background-color: #1e87b1;
+}
+
+/***********************************************************************************************/
+/*  PRODUCTS SECTION */
+/***********************************************************************************************/
+#products img {
+  max-width: 600px;
+  width: 100%;
+}
+
+img.american {
+  max-width: 500px;
+}
+
+/***********************************************************************************************/
+/*  FOOTER */
+/***********************************************************************************************/
+footer {
+  background: #1e87b1;
+  color: #fff;
+  font-size: 14px;
+  padding: 30px 20px;
+}
+
+footer .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+/***********************************************************************************************/
+/*  ALT CARD STYLE */
+/***********************************************************************************************/
+.uk-card-secondary.alt {
+  background-color: #f0eee9;
+  /*border: 1px solid #f8f8f8;*/
+}
+
+.uk-card-secondary.alt h3,
+.uk-card-secondary.alt p,
+.uk-card-secondary.alt a {
+  color: #000 !important;
+}
+
+/***********************************************************************************************/
+/*  RESPONSIVE STYLES */
+/***********************************************************************************************/
+@media (max-width: 1024px) {
+  footer .footer-container {
+    flex-direction: column;
+  }
+
+  .uk-section {
+    padding: 10px 0;
+  }
+
+  #hero, #hero .uk-slideshow-items {
+    height: 50vh !important;
+    min-height: 50vh !important;
+  }
+
+  #hero .uk-text-lead, #hero p, #hero .cta-button {
+    font-size: 1rem;
+  }
+
+  #hero .uk-overlay h1, #hero .uk-overlay h2 {
+    font-size: 2rem;
+  }
+  #products h2, #reps h2, #contact h2 {
+    font-size: 2rem;
+  }
+  #products h3, #reps h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  #products div {
+    margin-top: 0;
+  }
+
+  #products p {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  #hero .cta-button, .cta-button {
+    font: bold 0.75rem "Roboto", sans-serif;
+  }
+}
+
+@media (max-width: 960px) {
+    #hero .uk-overlay {
+        background: rgba(0, 0, 0, 1);
+    backdrop-filter: blur(0px);
+  }
+}
+
+@media (min-width: 960px) {
+  .uk-section {
+    padding: 20px 0;
+  }
+}
