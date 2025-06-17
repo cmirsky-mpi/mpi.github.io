@@ -82,7 +82,7 @@ nav img {
     font-size:2.65rem;
 }
 #hero .uk-overlay p {
-    font-size:1.25rem;
+    font-size:1.15rem;
 }
 
 #hero img {
@@ -160,8 +160,8 @@ footer .footer-container {
   }
 
   #hero, #hero .uk-slideshow-items {
-    height: 50vh !important;
-    min-height: 50vh !important;
+    height: 55vh !important;
+    min-height: 55vh !important;
   }
 
   #hero .uk-text-lead, #hero p, #hero .cta-button {
@@ -171,6 +171,14 @@ footer .footer-container {
   #hero .uk-overlay h1, #hero .uk-overlay h2 {
     font-size: 2rem;
   }
+#hero .uk-overlay {
+  padding: 30px;
+  max-width: 1024px;
+  width: 100%;
+  background: none !important;
+  backdrop-filter: blur(1px);
+}
+
   #products h2, #reps h2, #contact h2 {
     font-size: 2rem;
   }
