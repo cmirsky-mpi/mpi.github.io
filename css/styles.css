@@ -54,6 +54,16 @@ nav img {
   font-weight:500;
 }
 
+.uk-dotnav>*>* {
+  background-color:transparent !important;
+  border-color:black !important;
+}
+
+.uk-dotnav .uk-active a {
+  background-color:black !important;
+  border-color:black !important;
+}
+
 /***********************************************************************************************/
 /*  HERO SECTION */
 /***********************************************************************************************/
@@ -101,6 +111,8 @@ nav img {
   filter: brightness(1.05);
   background-color: #1e87b1;
 }
+
+
 
 /***********************************************************************************************/
 /*  PRODUCTS SECTION */
