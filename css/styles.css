@@ -34,7 +34,7 @@ nav img {
 
 .outer-sticky {
   background-color: #1e87b1 !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid #f0eee9;
 }
 
@@ -150,7 +150,6 @@ footer .footer-container {
 /***********************************************************************************************/
 .uk-card-secondary.alt {
   background-color: #f0eee9;
-  /*border: 1px solid #f8f8f8;*/
 }
 
 .uk-card-secondary.alt h3,
@@ -185,9 +184,9 @@ footer .footer-container {
   }
 #hero .uk-overlay {
   padding: 30px;
-  max-width: 1024px;
+  max-width: 100%;
   width: 100%;
-  background: none !important;
+  background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(1px);
 }
 
@@ -210,13 +209,6 @@ footer .footer-container {
 
   #hero .cta-button, .cta-button {
     font: bold 0.75rem "Roboto", sans-serif;
-  }
-}
-
-@media (max-width: 960px) {
-    #hero .uk-overlay {
-        background: rgba(0, 0, 0, 1);
-    backdrop-filter: blur(0px);
   }
 }
 
