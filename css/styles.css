@@ -118,7 +118,7 @@ nav img {
 /*  PRODUCTS SECTION */
 /***********************************************************************************************/
 #products img {
-  max-width: 1200px;
+  max-width: 800px;
   width: 100%;
 }
 
@@ -162,10 +162,6 @@ footer .footer-container {
 /*  RESPONSIVE STYLES */
 /***********************************************************************************************/
 @media (max-width: 1024px) {
-  footer .footer-container {
-    flex-direction: column;
-  }
-
   .uk-section {
     padding: 10px 0;
   }
@@ -214,6 +210,14 @@ footer .footer-container {
   .uk-offcanvas-overlay::before {
     background: rgba(0, 0, 0, 0.25);
   }
+  footer .footer-container {
+    text-align:left;
+    align-items:left;
+  }
+  footer .footer-container div {
+  align-items:left;
+  text-align:left;
+}
 }
 
 @media (min-width: 960px) {
