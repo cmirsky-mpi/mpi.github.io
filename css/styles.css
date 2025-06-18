@@ -217,6 +217,10 @@ footer .footer-container {
   footer .footer-container div {
   align-items:left;
   text-align:left;
+     }
+  .footer-container.uk-container {
+  padding-left:10px;
+  padding-right:10px;
 }
 }
 
