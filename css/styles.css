@@ -11,16 +11,13 @@ h3 {
   font: bold 1.5rem "Roboto", sans-serif;
 }
 
-/***********************************************************************************************/
-/*  NAVIGATION & UIKIT OVERRIDES */
-/***********************************************************************************************/
 nav {
   max-width: 1200px;
   margin: 0 auto;
   z-index: 999;
 }
 
-nav.custom-pad {
+nav.uk-section {
   padding: 0 25px;
 }
 
@@ -39,34 +36,28 @@ nav img {
 }
 
 .uk-open > .uk-offcanvas-bar,
-.uk-offcanvas-bar .uk-nav-default > li > a {
+.uk-offcanvas-bar .uk-nav-default > li > a,
+.uk-offcanvas-bar {
   background-color: #1e87b1;
   color: #fff;
 }
 
-.uk-offcanvas-bar {
-  background-color:#1e87b1 ;
-}
-
 .uk-navbar-nav > li > a,
 .uk-navbar-toggle {
-  color: #ffffff !important;
-  font-weight:500;
+  color: #fff !important;
+  font-weight: 500;
 }
 
-.uk-dotnav>*>* {
-  background-color:transparent !important;
-  border-color:black !important;
+.uk-dotnav > * > * {
+  background-color: transparent !important;
+  border-color: black !important;
 }
 
 .uk-dotnav .uk-active a {
-  background-color:black !important;
-  border-color:black !important;
+  background-color: black !important;
+  border-color: black !important;
 }
 
-/***********************************************************************************************/
-/*  HERO SECTION */
-/***********************************************************************************************/
 #hero .uk-card-secondary {
   background: none;
   box-shadow: none;
@@ -76,7 +67,8 @@ nav img {
   font-weight: 300;
 }
 
-#hero h1, #hero p {
+#hero h1,
+#hero p {
   color: #fff;
 }
 
@@ -89,17 +81,18 @@ nav img {
 }
 
 #hero .uk-overlay h1 {
-    font-size:2.65rem;
+  font-size: 2.65rem;
 }
+
 #hero .uk-overlay p {
-    font-size:1.15rem;
+  font-size: 1.15rem;
 }
 
 #hero img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-#hero .cta-button, .cta-button {
+.cta-button {
   padding: 20px;
   background: #1e87b1 center/cover no-repeat;
   color: white;
@@ -107,16 +100,11 @@ nav img {
   font: bold 1rem "Roboto", sans-serif;
 }
 
-#hero .cta-button:hover, .cta-button:hover {
+.cta-button:hover {
   filter: brightness(1.05);
   background-color: #1e87b1;
 }
 
-
-
-/***********************************************************************************************/
-/*  PRODUCTS SECTION */
-/***********************************************************************************************/
 #products img {
   max-width: 800px;
   width: 100%;
@@ -126,9 +114,6 @@ img.american {
   max-width: 500px;
 }
 
-/***********************************************************************************************/
-/*  FOOTER */
-/***********************************************************************************************/
 footer {
   background: #1e87b1;
   color: #fff;
@@ -145,9 +130,6 @@ footer .footer-container {
   text-align: center;
 }
 
-/***********************************************************************************************/
-/*  ALT CARD STYLE */
-/***********************************************************************************************/
 .uk-card-secondary.alt {
   background-color: #f0eee9;
 }
@@ -158,70 +140,65 @@ footer .footer-container {
   color: #000 !important;
 }
 
-/***********************************************************************************************/
-/*  RESPONSIVE STYLES */
-/***********************************************************************************************/
 @media (max-width: 1024px) {
   .uk-section {
     padding: 10px 0;
   }
 
-  #hero, #hero .uk-slideshow-items {
+  #hero,
+  #hero .uk-slideshow-items {
     height: 55vh !important;
     min-height: 55vh !important;
   }
 
-  #hero .uk-text-lead, #hero p, #hero .cta-button {
+  #hero .uk-text-lead,
+  #hero p,
+  .cta-button {
     font-size: 1rem;
   }
 
-  #hero .uk-overlay h1, #hero .uk-overlay h2 {
+  #hero .uk-overlay h1,
+  #hero .uk-overlay h2 {
     font-size: 2rem;
   }
-#hero .uk-overlay {
-  padding: 30px;
-  max-width: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(1px);
-}
 
-  #products h2, #reps h2, #contact h2 {
+  #hero .uk-overlay {
+    max-width: 100%;
+  }
+
+  #products h2,
+  #reps h2,
+  #contact h2 {
     font-size: 2rem;
   }
-  #products h3, #reps h3 {
+
+  #products h3,
+  #reps h3 {
     font-size: 1.25rem;
     margin-bottom: 10px;
   }
 
-  #products div {
-    margin-top: 0;
-  }
-
   #products p {
-    margin-top: 0;
     font-size: 1rem;
   }
 
-  #hero .cta-button, .cta-button {
+  .cta-button {
     font: bold 0.75rem "Roboto", sans-serif;
   }
 
   .uk-offcanvas-overlay::before {
     background: rgba(0, 0, 0, 0.25);
   }
+
   footer .footer-container {
-    text-align:left;
-    align-items:left;
+    text-align: left;
+    align-items: flex-start;
   }
-  footer .footer-container div {
-  align-items:left;
-  text-align:left;
-     }
+
   .footer-container.uk-container {
-  padding-left:10px;
-  padding-right:10px;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media (min-width: 960px) {
