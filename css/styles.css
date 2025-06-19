@@ -11,6 +11,10 @@ h3 {
   font: bold 1.5rem "Roboto", sans-serif;
 }
 
+:target {
+    scroll-margin-top: 80px; /* Adjust this value to the height of your fixed header */
+}
+
 nav {
   max-width: 1200px;
   margin: 0 auto;
