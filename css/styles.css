@@ -53,6 +53,11 @@ nav img {
   border-color: black !important;
 }
 
+.mpi-blue {
+    background-color: #1e87b1 !important;
+    color: #fff !important;
+}
+
 .uk-dotnav .uk-active a {
   background-color: black !important;
   border-color: black !important;
@@ -94,8 +99,8 @@ nav img {
 
 .cta-button {
   padding: 20px;
-  background: #1e87b1 center/cover no-repeat;
-  color: white;
+  background: #1e87b1 center/cover no-repeat !important;
+  color: white !important;
   border: none;
   font: bold 1rem "Roboto", sans-serif;
 }
@@ -128,6 +133,10 @@ footer .footer-container {
   gap: 15px;
   align-items: center;
   text-align: center;
+}
+
+#contact a {
+  color:#1e87b1 !important;
 }
 
 .uk-card-secondary.alt {
