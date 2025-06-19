@@ -11,6 +11,11 @@ h3 {
   font: bold 1.5rem "Roboto", sans-serif;
 }
 
+  #products p, #reps p, #contact p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
 :target {
     scroll-margin-top: 80px; /* Adjust this value to the height of your fixed header */
 }
@@ -138,6 +143,7 @@ footer .footer-container {
   align-items: center;
   text-align: center;
 }
+  
 
 #contact a {
   color:#1e87b1 !important;
@@ -191,10 +197,6 @@ footer .footer-container {
     margin-bottom: 10px;
   }
 
-  #products p {
-    font-size: 1rem;
-  }
-
   .cta-button {
     font: bold 0.75rem "Roboto", sans-serif;
   }
@@ -206,16 +208,5 @@ footer .footer-container {
   footer .footer-container {
     text-align: left;
     align-items: flex-start;
-  }
-
-  .footer-container.uk-container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (min-width: 960px) {
-  .uk-section {
-    padding: 20px 0;
   }
 }
