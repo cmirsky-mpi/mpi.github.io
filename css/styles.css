@@ -156,8 +156,8 @@ footer .footer-container {
 
   #hero,
   #hero .uk-slideshow-items {
-    height: 55vh !important;
-    min-height: 55vh !important;
+    height: 50vh !important;
+    min-height: 50vh !important;
   }
 
   #hero .uk-text-lead,
@@ -173,6 +173,7 @@ footer .footer-container {
 
   #hero .uk-overlay {
     max-width: 100%;
+    height:100%;
   }
 
   #products h2,
