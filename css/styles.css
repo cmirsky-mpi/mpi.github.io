@@ -57,19 +57,9 @@ nav img {
   font-weight: 500;
 }
 
-.uk-dotnav > * > * {
-  background-color: transparent !important;
-  border-color: black !important;
-}
-
 .mpi-blue {
     background-color: #1e87b1 !important;
     color: #fff !important;
-}
-
-.uk-dotnav .uk-active a {
-  background-color: black !important;
-  border-color: black !important;
 }
 
 #hero .uk-card-secondary {
