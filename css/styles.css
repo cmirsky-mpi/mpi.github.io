@@ -11,7 +11,7 @@ h3 {
   font: bold 1.5rem "Roboto", sans-serif;
 }
 
-  #products p, #reps p, #contact p {
+  #products p, #reps p, #contact p, .uk-overlay p {
     font-size: 1rem;
     line-height: 1.3rem;
   }
@@ -156,14 +156,24 @@ footer .footer-container {
 
   #hero,
   #hero .uk-slideshow-items {
-    height: 50vh !important;
-    min-height: 50vh !important;
+    height: 60vh !important;
+    min-height: 60vh !important;
   }
 
   #hero .uk-text-lead,
   #hero p,
   .cta-button {
     font-size: 1rem;
+  }
+
+  .catalog-offcanvas {
+    margin-top:25px;
+    padding-top:25px;
+    border-top:1px solid #fff;
+  }
+  .catalog-offcanvas a.uk-button {
+    background-color:#fff !important;
+    color:black !important;
   }
 
   #hero .uk-overlay h1,
@@ -173,7 +183,6 @@ footer .footer-container {
 
   #hero .uk-overlay {
     max-width: 100%;
-    height:100%;
   }
 
   #products h2,
@@ -200,4 +209,6 @@ footer .footer-container {
     text-align: left;
     align-items: flex-start;
   }
+
+  
 }
