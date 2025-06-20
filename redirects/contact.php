@@ -1,4 +1,4 @@
-"---
-redirect_from: ""/contact.php""
-redirect_to: ""/""
----"
+---
+redirect_from: "/contact.php"
+redirect_to: "/"
+---
