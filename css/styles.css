@@ -80,8 +80,7 @@ nav img {
   padding: 30px;
   max-width: 1024px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(1px);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8); /* enhances legibility */
 }
 
 #hero .uk-overlay h1 {
