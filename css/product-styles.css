@@ -1,0 +1,96 @@
+    h1 {
+      border-bottom: 3px solid black;
+    }
+
+    section {
+      padding: 10px 0px;
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    tbody {
+      display: table-row-group;
+      vertical-align: middle;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    tr {
+      display: table-row;
+      vertical-align: inherit;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+      color: #000;
+    }
+
+    .uk-table th {
+      background: #f8f8f8;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .uk-table.custom-spacing {
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    .uk-table.custom-spacing,
+    .uk-accordion-content.custom-spacing {
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    .uk-table-striped tbody tr:nth-of-type(odd),
+    .uk-table-striped>tr:nth-of-type(odd) {
+      background: transparent;
+    }
+
+    .uk-table-striped tbody tr:nth-of-type(even),
+    .uk-table-striped>tr:nth-of-type(even) {
+      background: #f8f8f8;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .uk-accordion>:nth-child(n+2) {
+      margin-top: 0px;
+    }
+
+    .uk-accordion-title {
+      padding: 10px;
+      border-bottom: 1px solid black;
+      background-color: #f8f8f8;
+    }
+
+    .uk-accordion-title:hover {
+      background-color: rgb(226, 226, 226);
+    }
+
+    .top-margin {
+      margin-top: 50px;
+    }
+
+    .uk-open .uk-accordion-title {
+      background-color: #1e87b1;
+      color: #fff;
+    }
+
+    @media (max-width:1024px) {
+      section {
+        width: 90%;
+      }
+    }
