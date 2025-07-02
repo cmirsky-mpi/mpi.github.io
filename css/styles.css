@@ -26,8 +26,9 @@ nav {
   z-index: 999;
 }
 
-nav.uk-section .uk-padding-small {
-  padding:0px;
+nav.uk-padding-small {
+  padding-top:0px;
+  padding-bottom:0px;
 }
 
 nav a:hover {
