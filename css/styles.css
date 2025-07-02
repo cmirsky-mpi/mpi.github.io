@@ -51,14 +51,21 @@ nav img {
 
 .custom-button-color {
   background-color:#1e87b1 !important;
-  color:#fff;
+  color:#fff !important;
 }
 .custom-button-color:hover {
   color:#fff;
 }
+
+#hero .uk-button-primary {
+  color:black;
+}
 .uk-button-primary {
   font-weight:bold;
-  color:black !important;;
+  color:black;
+}
+.uk-button-primary:hover {
+  filter: brightness(95%);
 }
 
 .uk-heading-small {
