@@ -43,6 +43,10 @@ nav img {
   max-width: 120px;
 }
 
+#hero .above-all {
+  z-index:100;
+}
+
 .outer-sticky {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid #f0eee9;
