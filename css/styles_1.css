@@ -13,7 +13,7 @@ h3 {
 
   #products p, #reps p, #contact p, .uk-overlay p {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.3rem;
   }
 
 :target {
@@ -26,8 +26,8 @@ nav {
   z-index: 999;
 }
 
-nav.uk-section .uk-padding-small {
-  padding:0px;
+nav.uk-section {
+  padding: 0 25px;
 }
 
 nav a:hover {
@@ -39,43 +39,22 @@ nav img {
 }
 
 .outer-sticky {
+  background-color: #1e87b1 !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid #f0eee9;
-  background-color:#fff;
 }
 
-.custom-button-color {
-  background-color:#1e87b1 !important;
-  color:#fff;
-}
-.custom-button-color:hover {
-  color:#fff;
-}
-.uk-button-primary {
-  font-weight:bold;
-  color:black !important;;
+.uk-open > .uk-offcanvas-bar,
+.uk-offcanvas-bar .uk-nav-default > li > a,
+.uk-offcanvas-bar {
+  background-color: #1e87b1;
+  color: #fff;
 }
 
-.uk-heading-small {
-  font: bold 2.625rem "Roboto", sans-serif;
-}
-
-.about-section {
-  line-height:1.5;
-}
-
-.uk-offcanvas-bar ul li a {
-  color:#fff !important;
-  margin-bottom:0px !important;
-}
-
-.uk-offcanvas-bar .catalog-offcanvas a.uk-button {
-  margin-bottom:0px;
-}
-
-.uk-navbar-nav > li > a {
-  font-weight: bold;
-  color:black;
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  color: #fff !important;
+  font-weight: 500;
 }
 
 .mpi-blue {
@@ -139,7 +118,7 @@ img.american {
 }
 
 footer {
-  background: black;
+  background: #1e87b1;
   color: #fff;
   font-size: 14px;
   padding: 30px 20px;
@@ -170,19 +149,14 @@ footer .footer-container {
 }
 
 @media (max-width: 1024px) {
-.uk-container {
-  padding:25px;
-}
-
-
   .uk-section {
     padding: 10px 0;
   }
 
   #hero,
   #hero .uk-slideshow-items {
-    height: 70vh !important;
-    min-height: 70vh !important;
+    height: 60vh !important;
+    min-height: 60vh !important;
   }
 
   #hero .uk-text-lead,
@@ -235,30 +209,5 @@ footer .footer-container {
     align-items: flex-start;
   }
 
-  /* Added styles for version 2 mobile */
-  .uk-heading-medium {
-    font-size:1.75rem;
-  }
-  .uk-text-lead {
-    font-size:1.25rem;
-  }
-  .uk-heading-small {
-    font: bold 2.2rem "Roboto", sans-serif;
-  }
-  .uk-button {
-    margin-bottom:25px;
-  }
-  nav.uk-section {
-  padding: 0 25px;
-}
-.uk-navbar-toggle{
-  color:black;
-}
- .uk-close {
-  color:#fff !important;
- }
-  footer {
-    padding:10px;
-  }
- 
+  
 }
