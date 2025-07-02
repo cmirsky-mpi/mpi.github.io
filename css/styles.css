@@ -34,6 +34,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.uk-text-primary {
+  color:#1e87b1;
+}
+
 nav img {
   max-width: 100px;
 }
@@ -241,6 +245,9 @@ footer .footer-container {
   }
   .uk-text-lead {
     font-size:1.25rem;
+  }
+  .uk-heading-medium {
+    line-height:1.5;
   }
   .uk-heading-small {
     font: bold 2.2rem "Roboto", sans-serif;
