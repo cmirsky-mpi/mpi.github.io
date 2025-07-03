@@ -108,6 +108,10 @@ nav img {
   font-weight: 300;
 }
 
+.uk-card-default.uk-card-hover:hover {
+    box-shadow: 0 14px 25px rgba(30, 135, 177, .25);
+}
+
 #hero h1,
 #hero p {
   color: #fff;
@@ -272,9 +276,11 @@ footer .footer-container {
 }
 .uk-navbar-toggle{
   color:black;
+  padding-right:5px;
 }
  .uk-close {
   color:#fff !important;
+  padding:10px;
  }
   footer {
     padding:10px;
