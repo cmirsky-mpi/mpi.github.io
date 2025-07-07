@@ -113,6 +113,14 @@ nav img {
     box-shadow: 0 14px 25px rgba(30, 135, 177, .25);
 }
 
+.uk-card-default.uk-card-hover:hover .uk-overlay-default {
+  background: rgba(30, 135, 177, 0.8)
+
+}
+.uk-card-default.uk-card-hover:hover .uk-overlay-default p {
+  color:#fff !important;
+}
+
 #hero h1,
 #hero p {
   color: #fff;

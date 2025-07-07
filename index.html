@@ -29,11 +29,11 @@
       </div>
       <div class="uk-navbar-right">
         <ul class="uk-navbar-nav uk-visible@s">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#reps">Reps</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" uk-scroll>Home</a></li>
+          <li><a href="#about-us" uk-scroll>About Us</a></li>
+          <li><a href="#products" uk-scroll>Products</a></li>
+          <li><a href="#reps" uk-scroll>Reps</a></li>
+          <li><a href="#contact" uk-scroll>Contact</a></li>
         </ul>
         <a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#offcanvas-nav" uk-toggle></a>
       </div>
@@ -45,11 +45,11 @@
       <button class="uk-offcanvas-close" type="button" uk-close></button>
       <h3>MP Industries, Inc.</h3>
       <ul class="uk-nav uk-nav-default">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#reps">Reps</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" uk-scroll>Home</a></li>
+        <li><a href="#about-us" uk-scroll>About Us</a></li>
+        <li><a href="#products" uk-scroll>Products</a></li>
+        <li><a href="#reps" uk-scroll>Reps</a></li>
+        <li><a href="#contact" uk-scroll>Contact</a></li>
         <div class="catalog-offcanvas">
           <a class="uk-button uk-button-primary cta-button" href="dl/MPI_Products_Catalog.pdf" target="_blank">View Our
             Product Catalog</a>
@@ -80,8 +80,10 @@
       </p>
 
       <div class="uk-margin-top">
-        <a class="uk-button uk-button-primary uk-button-large uk-margin-small-right uk-animation-fade" href="#products">Our Products</a>
-        <a class="uk-button uk-button-default uk-button-large uk-animation-fade" href="#contact">Contact Us</a>
+        <a class="uk-button uk-button-primary uk-button-large uk-margin-small-right uk-animation-fade" href="#products"
+          uk-scroll>Our Products</a>
+        <a class="uk-button uk-button-default uk-button-large uk-animation-fade" href="#contact" uk-scroll>Contact
+          Us</a>
       </div>
 
     </div>
@@ -114,111 +116,143 @@
   <section id="products" class="uk-section uk-section-muted">
     <div class="uk-container">
       <h2 class="uk-heading-line"><span>Our Products</span></h2>
-      <p>Manufactured in America by Americans using time-tested formulations. Our products are proven in all environments. That's how we guarantee reliability.</p>
+      <p>Manufactured in America by Americans using time-tested formulations. Our products are proven in all
+        environments. That's how we guarantee reliability.</p>
+      <p>*Click any product category below to view our PDF catalog.</p>
       <div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-grid-match" uk-grid>
 
         <!-- Product 1 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=1" target="_blank">
             <span uk-icon="icon: settings; ratio: 2" class="uk-margin-small-bottom uk-text-primary "></span>
             <h4 class="uk-card-title">Packer Parts</h4>
             <p>Replacement elements, seals, "O" rings, and drag springs for the most frequently used packers.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 2 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=23" target="_blank">
             <span uk-icon="icon: folder; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Packer Kits</h4>
             <p>MPI packer elements and seals are proven to outperform the competition in most well environments.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 3 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=30" target="_blank">
             <span uk-icon="icon: expand; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Friction Springs</h4>
             <p>We make replacement packer elements, seals, drag springs, and "O" rings to fit the most popular
               manufacturer packers, bridge plugs, and tubing anchors.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 4 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=32" target="_blank">
             <span uk-icon="icon: nut; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Packer Cups</h4>
             <p>We make replacement packer elements, seals, drag springs, and "O" rings to fit the most popular
               manufacturer packers, bridge plugs, and tubing anchors.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 5 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=34" target="_blank">
             <span uk-icon="icon: database; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Stripper Rubbers</h4>
             <p>Replacement Stripper Rubbers guaranteed to fit most of the popular tubing heads.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 6 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=35" target="_blank">
             <span uk-icon="icon: lock; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Top-Pack Off Rubbers</h4>
             <p>Top pack-off rubbers engineered for a secure seal and long-lasting performance in high-pressure oilfield
               applications. Compatible with most standard tubing heads.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 7 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=36" target="_blank">
             <span uk-icon="icon: bolt; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Rod Guides</h4>
             <p>Sucker Rod Guides produced from the best quality rubber formulations and a spring steel insert.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 8 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=37" target="_blank">
             <span uk-icon="icon: nut; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Valve Parts</h4>
             <p>High-performance replacement valve parts built to withstand extreme pressure and abrasive well
               conditions.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 9 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=39" target="_blank">
             <span uk-icon="icon: folder; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Valve Kits</h4>
             <p>Complete valve rebuild kits designed for fast, reliable maintenance and extended service life.</p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
 
         <!-- Product 10 -->
         <div>
-          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle"
+          <a class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-link-toggle uk-inline-clip uk-transition-toggle"
             href="/dl/MPI_Products_Catalog.pdf#page=41" target="_blank">
             <span uk-icon="icon: refresh; ratio: 2" class="uk-margin-small-bottom uk-text-primary"></span>
             <h4 class="uk-card-title">Wipers</h4>
             <p>Durable wiper elements engineered to maintain a clean seal and remove debris during rod or pipe movement.
             </p>
+            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+              <p class="uk-h4 uk-margin-remove">View Products <span uk-icon="icon: download"></span></p>
+            </div>
           </a>
         </div>
       </div>
@@ -226,7 +260,7 @@
       <!-- View Catalog Main Button -->
       <div class="uk-container uk-align-center uk-text-center">
         <a class="uk-button uk-button-primary uk-button-large custom-button-color" href="/dl/MPI_Products_Catalog.pdf"
-          target="_blank">View Our Product Catalog</a>
+          target="_blank">View Our Product Catalog <span uk-icon="icon: download"></span></a>
       </div>
     </div>
   </section>
@@ -330,7 +364,7 @@
       <h2 class="uk-heading-line"><span>Contact Us</span></h2>
       <p>Have a Question? We're just a quick call or email away.</p>
       <div class="uk-grid-large" uk-grid>
-       <div class="uk-width-1-2@s">
+        <div class="uk-width-1-2@s">
           <h3>MP Industries, Inc. Headquarters</h3>
           <p><strong>Address: </strong><br> 4939 Profit Drive<br>Tyler, TX 75707</p>
           <p><strong>Email: </strong><a href="mailto:mpi@suddenlinkmail.com">mpi@suddenlinkmail.com</a>
@@ -352,14 +386,18 @@
   <footer>
     <div class="uk-container footer-container">
       <div>
-        MP Industries, Inc.<span class="uk-visible@s"> | </span><br class="uk-hidden@s">4939 Profit Drive, Tyler, TX 75707<span class="uk-visible@s"> | </span><br class="uk-hidden@s">P: 903-561-4232<span class="uk-visible@s"> | </span><br class="uk-hidden@s">F: 903-581-8823
+        MP Industries, Inc.<span class="uk-visible@s"> | </span><br class="uk-hidden@s">4939 Profit Drive, Tyler, TX
+        75707<span class="uk-visible@s"> | </span><br class="uk-hidden@s">P: 903-561-4232<span class="uk-visible@s"> |
+        </span><br class="uk-hidden@s">F: 903-581-8823
       </div>
       <div>
         &copy;
-        <script>document.write(new Date().getFullYear())</script> MP Industries, Inc. All rights reserved. <span class="uk-visible@s"> • </span><br class="uk-hidden@s">Developed
+        <script>document.write(new Date().getFullYear())</script> MP Industries, Inc. All rights reserved. <span
+          class="uk-visible@s"> • </span><br class="uk-hidden@s">Developed
         by: Collin Mirsky
       </div>
     </div>
   </footer>
 </body>
+
 </html>
