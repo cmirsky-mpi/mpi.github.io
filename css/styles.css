@@ -40,7 +40,8 @@ nav a:hover {
 }
 
 nav img {
-  max-width: 120px;
+  max-width: 100px;
+  padding:10px 0px;
 }
 
 #hero .above-all {
@@ -201,8 +202,8 @@ footer .footer-container {
 
   #hero,
   #hero .uk-slideshow-items {
-    height: 70vh !important;
-    min-height: 70vh !important;
+    height: 50vh !important;
+    min-height: 50vh !important;
   }
 
   #hero .uk-text-lead,
