@@ -105,10 +105,7 @@ nav img {
   min-height:10px;
 }
 .uk-navbar-nav > li.uk-active {
-  border-bottom:1px solid #1e87b1;
-}
-.uk-navbar-nav>li.uk-active>a {
-  color:#1e87b1;
+  border-bottom:1px solid black;
 }
 
 .mpi-blue {
