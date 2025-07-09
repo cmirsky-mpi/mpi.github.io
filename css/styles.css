@@ -87,7 +87,12 @@ nav img {
 
 .uk-offcanvas-bar ul li a {
   color:#fff !important;
-  margin-bottom:0px !important;
+}
+.uk-offcanvas-bar ul li a {
+  margin-bottom:10px;
+}
+.catalog-offcanvas li a {
+ margin-bottom:0px !important;
 }
 
 .uk-offcanvas-bar .catalog-offcanvas a.uk-button {
