@@ -3,7 +3,8 @@ body {
   font: normal 1rem "Roboto", sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font: bold 2.625rem "Roboto", sans-serif;
 }
 
@@ -11,13 +12,16 @@ h3 {
   font: bold 1.5rem "Roboto", sans-serif;
 }
 
-  #products p, #reps p, #contact p, .uk-overlay p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
+#products p,
+#reps p,
+#contact p,
+.uk-overlay p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
 
 :target {
-    scroll-margin-top: 80px; /* Adjust this value to the height of your fixed header */
+  scroll-margin-top: 80px; /* Adjust this value to the height of your fixed header */
 }
 
 nav {
@@ -27,51 +31,52 @@ nav {
 }
 
 nav.uk-padding-small {
-  padding-top:0px;
-  padding-bottom:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-.uk-navbar-nav a:hover:not(.uk-navbar-toggle), .uk-navbar-nav a:hover:not(.uk-logo) {
-  border-bottom:1px solid #1e87b1;
+.uk-navbar-nav a:hover:not(.uk-navbar-toggle),
+.uk-navbar-nav a:hover:not(.uk-logo) {
   color: #1e87b1 !important;
 }
-.uk-navbar-toggle:hover, .uk-navbar-toggle[aria-expanded=true] {
-  color:black;
+.uk-navbar-toggle:hover,
+.uk-navbar-toggle[aria-expanded="true"] {
+  color: black;
 }
 
 .uk-text-primary {
-  color:#1e87b1;
+  color: #1e87b1;
 }
 
 nav img {
   max-width: 100px;
-  padding:10px 0px;
+  padding: 10px 0px;
 }
 
 #hero .above-all {
-  z-index:100;
+  z-index: 100;
 }
 
 .outer-sticky {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid #f0eee9;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .custom-button-color {
-  background-color:#1e87b1 !important;
-  color:#fff !important;
+  background-color: #1e87b1 !important;
+  color: #fff !important;
 }
 .custom-button-color:hover {
-  color:#fff;
+  color: #fff;
 }
 
 #hero .uk-button-primary {
-  color:black;
+  color: black;
 }
 .uk-button-primary {
-  font-weight:bold;
-  color:black;
+  font-weight: bold;
+  color: black;
 }
 .uk-button-primary:hover {
   filter: brightness(95%);
@@ -82,35 +87,35 @@ nav img {
 }
 
 .about-section {
-  line-height:1.5;
+  line-height: 1.5;
 }
 
 .uk-offcanvas-bar ul li a {
-  color:#fff !important;
+  color: #fff !important;
 }
 .uk-offcanvas-bar ul li a {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 .catalog-offcanvas li a {
- margin-bottom:0px !important;
+  margin-bottom: 0px !important;
 }
 
 .uk-offcanvas-bar .catalog-offcanvas a.uk-button {
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 .uk-navbar-nav > li > a {
   font-weight: 500;
-  color:black;
-  min-height:10px;
+  color: black;
+  min-height: 10px;
 }
 .uk-navbar-nav > li.uk-active {
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .mpi-blue {
-    background-color: #1e87b1 !important;
-    color: #fff !important;
+  background-color: #1e87b1 !important;
+  color: #fff !important;
 }
 
 #hero .uk-card-secondary {
@@ -123,15 +128,14 @@ nav img {
 }
 
 .uk-card-default.uk-card-hover:hover {
-    box-shadow: 0 14px 25px rgba(30, 135, 177, .25);
+  box-shadow: 0 14px 25px rgba(30, 135, 177, 0.25);
 }
 
 .uk-card-default.uk-card-hover:hover .uk-overlay-default {
-  background: rgba(30, 135, 177, 0.8)
-
+  background: rgba(30, 135, 177, 0.8);
 }
 .uk-card-default.uk-card-hover:hover .uk-overlay-default p {
-  color:#fff !important;
+  color: #fff !important;
 }
 
 #hero h1,
@@ -195,10 +199,9 @@ footer .footer-container {
   align-items: center;
   text-align: center;
 }
-  
 
 #contact a {
-  color:#1e87b1 !important;
+  color: #1e87b1 !important;
 }
 
 .uk-card-secondary.alt {
@@ -212,10 +215,9 @@ footer .footer-container {
 }
 
 @media (max-width: 1024px) {
-.uk-container {
-  padding:25px;
-}
-
+  .uk-container {
+    padding: 25px;
+  }
 
   .uk-section {
     padding: 10px 0;
@@ -234,13 +236,13 @@ footer .footer-container {
   }
 
   .catalog-offcanvas {
-    margin-top:25px;
-    padding-top:25px;
-    border-top:1px solid #fff;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #fff;
   }
   .catalog-offcanvas a.uk-button {
-    background-color:#fff !important;
-    color:black !important;
+    background-color: #fff !important;
+    color: black !important;
   }
 
   #hero .uk-overlay h1,
@@ -279,33 +281,32 @@ footer .footer-container {
 
   /* Added styles for version 2 mobile */
   .uk-heading-medium {
-    font-size:1.75rem;
+    font-size: 1.75rem;
   }
   .uk-text-lead {
-    font-size:1.25rem;
+    font-size: 1.25rem;
   }
   .uk-heading-medium {
-    line-height:1.5;
+    line-height: 1.5;
   }
   .uk-heading-small {
     font: bold 2.2rem "Roboto", sans-serif;
   }
   .uk-button {
-    margin-bottom:25px;
+    margin-bottom: 25px;
   }
   nav.uk-section {
-  padding: 0 25px;
-}
-.uk-navbar-toggle{
-  color:black;
-  padding-right:5px;
-}
- .uk-close {
-  color:#fff !important;
-  padding:10px;
- }
-  footer {
-    padding:10px;
+    padding: 0 25px;
   }
- 
+  .uk-navbar-toggle {
+    color: black;
+    padding-right: 5px;
+  }
+  .uk-close {
+    color: #fff !important;
+    padding: 10px;
+  }
+  footer {
+    padding: 10px;
+  }
 }
