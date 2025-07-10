@@ -213,6 +213,23 @@ footer .footer-container {
 .uk-card-secondary.alt a {
   color: #000 !important;
 }
+@media (min-width: 1260px) {
+    nav.uk-section {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1240px) {
+    nav.uk-section {
+    padding: 0 40px;
+  }
+  footer .uk-container {
+    padding:10px 15px;
+  }
+}
+
+
+
 
 @media (max-width: 1024px) {
   .uk-container {
