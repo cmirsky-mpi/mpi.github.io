@@ -67,6 +67,10 @@ nav img {
   background-color: #1e87b1 !important;
   color: #fff !important;
 }
+.uk-icon..uk-text-primary {
+  color:#1e87b1;
+}
+
 .custom-button-color:hover {
   color: #fff;
 }
@@ -114,9 +118,9 @@ nav img {
   border-bottom: 1px solid black;
 }
 
-.mpi-blue {
-  background-color: #1e87b1 !important;
-  color: #fff !important;
+.flag-color {
+  background-color: #1e87b1!important;
+  color: white !important;
 }
 
 #hero .uk-card-secondary {
