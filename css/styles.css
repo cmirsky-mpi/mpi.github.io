@@ -74,12 +74,13 @@ nav img {
 #hero .uk-button-primary {
   color: black;
 }
+
 .uk-button-primary {
   font-weight: bold;
   color: black;
 }
 .uk-button-primary:hover {
-  filter: brightness(95%);
+  filter: brightness(90%);
 }
 
 .uk-heading-small {
@@ -205,7 +206,8 @@ footer .footer-container {
 }
 
 .uk-card-secondary.alt {
-  background-color: #f0eee9;
+  background-color:#f8f8f8;
+  border: 1px solid #f0eee9;
 }
 
 .uk-card-secondary.alt h3,
@@ -214,22 +216,19 @@ footer .footer-container {
   color: #000 !important;
 }
 @media (min-width: 1260px) {
-    nav.uk-section {
+  nav.uk-section {
     padding: 0;
   }
 }
 
 @media (max-width: 1240px) {
-    nav.uk-section {
+  nav.uk-section {
     padding: 0 40px;
   }
   footer .uk-container {
-    padding:10px 15px;
+    padding: 10px 15px;
   }
 }
-
-
-
 
 @media (max-width: 1024px) {
   .uk-container {
