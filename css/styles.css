@@ -57,6 +57,10 @@ nav img {
   z-index: 100;
 }
 
+#hero h1 {
+  font-weight:bold;
+}
+
 .outer-sticky {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid #f0eee9;
@@ -253,6 +257,10 @@ footer .footer-container {
   #hero p,
   .cta-button {
     font-size: 1rem;
+  }
+
+  #hero .uk-heading-medium {
+    font: bold 2rem "Roboto", sans-serif;
   }
 
   .catalog-offcanvas {
