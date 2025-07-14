@@ -80,9 +80,16 @@
       </p>
 
       <div class="uk-margin-top">
-        <a class="uk-button uk-button-primary uk-button-large uk-margin-small-right uk-animation-fade" href="#products"
+        <!-- Mobile Buttons Without Offset -->
+        <a class="uk-button uk-button-primary uk-button-large uk-margin-small-right uk-animation-fade uk-hidden@s" href="#products"
+          uk-scroll>Our Products</a>
+        <a class="uk-button uk-button-default uk-button-large uk-animation-fade uk-hidden@s" href="#contact"
+          uk-scroll>Contact
+          Us</a>
+          <!-- Desktop Buttons With Offeset -->
+         <a class="uk-button uk-button-primary uk-button-large uk-margin-small-right uk-animation-fade uk-visible@s" href="#products"
           uk-scroll="offset: -60">Our Products</a>
-        <a class="uk-button uk-button-default uk-button-large uk-animation-fade" href="#contact"
+        <a class="uk-button uk-button-default uk-button-large uk-animation-fade uk-visible@s" href="#contact"
           uk-scroll="offset: -60">Contact
           Us</a>
       </div>
