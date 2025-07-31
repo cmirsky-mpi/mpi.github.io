@@ -83,6 +83,15 @@ nav img {
   color: black;
 }
 
+#hero .uk-button-default:hover {
+      filter: brightness(75%);
+}
+
+#about-us .uk-heading-small.border-bottom {
+     border-bottom: calc(.2px + .05em) solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
 .uk-button-primary {
   font-weight: bold;
   color: black;
@@ -136,6 +145,9 @@ nav img {
   font-weight: 300;
 }
 
+.uk-card, a.uk-button, .uk-navbar-right li {
+  transition: all 0.25s ease-out allow-discrete;
+}
 .uk-card-default.uk-card-hover:hover {
   box-shadow: 0 14px 25px rgba(30, 135, 177, 0.25);
 }
