@@ -45,7 +45,7 @@ nav.uk-padding-small {
 }
 
 .uk-text-primary {
-  color: #1e87b1;
+  color: #1e87b1 !important;
 }
 
 nav img {
@@ -72,7 +72,7 @@ nav img {
   color: #fff !important;
 }
 .uk-icon..uk-text-primary {
-  color:#1e87b1;
+  color:#1e87b1 !important;
 }
 
 .custom-button-color:hover {
@@ -110,12 +110,14 @@ nav img {
 
 .uk-offcanvas-bar ul li a {
   color: #fff !important;
+  font-size: 1rem;
 }
 .uk-offcanvas-bar ul li a {
   margin-bottom: 10px;
 }
-.catalog-offcanvas li a {
+.catalog-offcanvas ul li a {
   margin-bottom: 0px !important;
+  font-size: 0.9rem;
 }
 
 .uk-offcanvas-bar .catalog-offcanvas a.uk-button {
