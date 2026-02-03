@@ -30,6 +30,20 @@ nav {
   z-index: 999;
 }
 
+nav#catalog-nav {
+      border-top: 2px solid #f0eee9;
+      padding:15px;
+}
+
+#catalog {
+  margin-top:0;
+  padding-top:0;
+}
+
+nav#catalog-nav .uk-navbar-nav {
+  margin:0 auto;
+}
+
 nav.uk-padding-small {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -351,4 +365,12 @@ footer .footer-container {
   footer {
     padding: 10px;
   }
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }
